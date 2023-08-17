@@ -97,3 +97,11 @@ def exportar_lista_csv(nombre_archivo, lista_datos, delimitador=','):
         print(f"Datos exportados exitosamente a '{nombre_archivo}'.")
     except Exception as e:
         print(f"Error: {e}")
+
+def agregar_a_archivo(nombre_archivo, texto):
+    try:
+        with open(nombre_archivo, "a") as archivo:
+            archivo.write(texto)
+        print(f"Contenido agregado exitosamente a '{nombre_archivo}'.")
+    except Exception as e:
+        print(f"Error_{e}")

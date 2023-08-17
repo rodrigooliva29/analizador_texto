@@ -1,12 +1,25 @@
+La extension del archivo es: .txt
 
-Tipo de Archivo: .txt
-Cont. Texto: Python es un lenguaje de programacion ampliamente utilizado en las aplicaciones web, 
+Contenido del Archivo: Python es un lenguaje de programacion ampliamente utilizado en las aplicaciones web, 
 el desarrollo de software, la ciencia de datos y el machine learning (ML). 
 Los desarrolladores utilizan Python porque es eficiente y facil de aprender, 
 ademas de que se puede ejecutar en muchas plataformas diferentes. 
 El software Python se puede descargar gratis, se integra bien a todos los tipos de sistemas y 
 aumenta la velocidad del desarrollo.
 
-Contador de Palabras: Counter({'de': 6, 'Python': 3, 'y': 3, 'se': 3, 'es': 2, 'en': 2, 'el': 2, 'la': 2, 'puede': 2, 'un': 1, 'lenguaje': 1, 'programacion': 1, 'ampliamente': 1, 'utilizado': 1, 'las': 1, 'aplicaciones': 1, 'web,': 1, 'desarrollo': 1, 'software,': 1, 'ciencia': 1, 'datos': 1, 'machine': 1, 'learning': 1, '(ML).': 1, 'Los': 1, 'desarrolladores': 1, 'utilizan': 1, 'porque': 1, 'eficiente': 1, 'facil': 1, 'aprender,': 1, 'ademas': 1, 'que': 1, 'ejecutar': 1, 'muchas': 1, 'plataformas': 1, 'diferentes.': 1, 'El': 1, 'software': 1, 'descargar': 1, 'gratis,': 1, 'integra': 1, 'bien': 1, 'a': 1, 'todos': 1, 'los': 1, 'tipos': 1, 'sistemas': 1, 'aumenta': 1, 'velocidad': 1, 'del': 1, 'desarrollo.': 1})
-El total de palabras es: 68
-Encontrar Palabras:None
+El total de palabras en este texto es: 68
+
+Cantidad de palabras una por una: Counter({'de': 6, 'Python': 3, 'y': 3, 'se': 3, 'es': 2, 'en': 2, 'el': 2, 'la': 2, 'puede': 2, 'un': 1, 'lenguaje': 1, 'programacion': 1, 'ampliamente': 1, 'utilizado': 1, 'las': 1, 'aplicaciones': 1, 'web,': 1, 'desarrollo': 1, 'software,': 1, 'ciencia': 1, 'datos': 1, 'machine': 1, 'learning': 1, '(ML).': 1, 'Los': 1, 'desarrolladores': 1, 'utilizan': 1, 'porque': 1, 'eficiente': 1, 'facil': 1, 'aprender,': 1, 'ademas': 1, 'que': 1, 'ejecutar': 1, 'muchas': 1, 'plataformas': 1, 'diferentes.': 1, 'El': 1, 'software': 1, 'descargar': 1, 'gratis,': 1, 'integra': 1, 'bien': 1, 'a': 1, 'todos': 1, 'los': 1, 'tipos': 1, 'sistemas': 1, 'aumenta': 1, 'velocidad': 1, 'del': 1, 'desarrollo.': 1})
+
+Se encontraron las palabras especficadas:
+La palabra 'ciencia' se encontro en el texto
+La palabra 'python' NO se encontro en el texto
+La palabra 'Python' se encontro en el texto
+
+La frecuencia por palabras indicadas es: 
+La palabra 'desarrollo' aparece 2 veces en el texto.
+La palabra 'solo' aparece 0 veces en el texto, 
+esta mal escrita o no existe revisar mayusculas-minusculas, redaccion, etc.
+
+La frecuencia por letra indicada es: 
+La letra 'h' aparece 5 veces en el texto.
