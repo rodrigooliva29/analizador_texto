@@ -6,7 +6,7 @@ import os.path
 nombre_archivo = "python.txt" #nombre del archivo a analizar
 palabras = ("ciencia", "python","Python") #para funcion "encontrar_palabra"
 letra = ("h") #para funcion "frecuencia_letra"
-palabras1 = (("desarrollo","solo")) #para funcion "frecuencia_palabras"
+palabras1 = ("desarrollo","solo") #para funcion "frecuencia_palabras"
 
 class AnalizadorDeTexto:
     def __init__(self, nombre_archivo):
@@ -32,9 +32,9 @@ class AnalizadorDeTexto:
                     resultados += (f"La palabra '{palabra}' se encontro en el texto\n")
                 else:
                     resultados += (f"La palabra '{palabra}' NO se encontro en el texto\n")
-            return resultados
         except Exception as e:
             print(str(e))
+        return resultados
 
     def frecuencia_palabra(self, palabras):
         try:
@@ -45,9 +45,9 @@ class AnalizadorDeTexto:
                     frecuencia_palabras += (f"\nLa palabra '{palabra}' aparece {ocurrencias} veces en el texto, \nesta mal escrita o no existe revisar mayusculas-minusculas, redaccion, etc.")
                 else:
                     frecuencia_palabras += (f"\nLa palabra '{palabra}' aparece {ocurrencias} veces en el texto.")
-            return frecuencia_palabras
         except (TypeError, NameError) as e:
             print(str(e))
+        return frecuencia_palabras
 
     def frecuencia_letra(self, letra):
         try:
@@ -60,9 +60,9 @@ class AnalizadorDeTexto:
                     frecuencia_letra += (f"\nLa letra '{letra}' aparece {ocurrencias} veces en el texto, esta mal escrita, no existe,\npuede revisar mayusculas-minusculas")
                 else:
                     frecuencia_letra += (f"\nLa letra '{letra}' aparece {ocurrencias} veces en el texto.\n")
-            return frecuencia_letra
         except (NameError, TypeError):
             print("Error de TypeError o NameError")
+        return frecuencia_letra
 
 analizador = AnalizadorDeTexto(nombre_archivo)
 tipo = analizador.tipo_archivo()
