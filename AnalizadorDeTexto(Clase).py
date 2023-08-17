@@ -1,4 +1,4 @@
-from leer_escribir_archivos import leer_archivo_texto, exportar_archivo_texto, agregar_a_archivo
+from leer_escribir_archivos import leer_archivo_texto, exportar_archivo_texto
 import re
 import collections
 import os.path
