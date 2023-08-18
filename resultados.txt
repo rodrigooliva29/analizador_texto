@@ -1,6 +1,6 @@
 La extension del archivo es: .txt
 
-Contenido del Archivo: Python es un lenguaje de programacion ampliamente utilizado en las aplicaciones web, 
+Contenido del archivo: Python es un lenguaje de programacion ampliamente utilizado en las aplicaciones web, 
 el desarrollo de software, la ciencia de datos y el machine learning (ML). 
 Los desarrolladores utilizan Python porque es eficiente y facil de aprender, 
 ademas de que se puede ejecutar en muchas plataformas diferentes. 
